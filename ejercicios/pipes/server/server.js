@@ -2,8 +2,6 @@ const net = require('node:net');
 const fs = require('fs');
 //const {basicPipes} = require("./basicPipe");
 
-
-
 const server = net.createServer();
 const PORT = 3000;
 
