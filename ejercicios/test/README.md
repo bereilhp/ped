@@ -11,6 +11,13 @@ make cliente
 `````
 
 ## Ejecutar tests
+
+Instalar dependencias 
+````
+npm install
+````
+
+Ejecutar tests
 `````
 make tests 
 `````
