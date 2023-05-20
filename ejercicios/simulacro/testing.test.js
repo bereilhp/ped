@@ -24,6 +24,10 @@ describe("Check if they exists", () => {
     it("Class ErrorMsj Exists", () => {
         expect(typeof(ErrorMsj)).toBe("function");
     });
+
+    it("Object errorMsj Exists", () => {
+        expect(typeof(errorMsj)).toBe("object");
+    });
 });
 
 describe("Function darFecha()",  () => {
