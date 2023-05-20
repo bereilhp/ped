@@ -1,5 +1,6 @@
 class ErrorMsj {
     darError(){
+        return "ERROR"
 
     }
 }
