@@ -14,6 +14,10 @@ describe("Check if they exists", () => {
     it("Class Hora Exists", () => {
         expect(typeof(Hora)).toBe("function");
     });
+
+    it("Object hora Exists", () => {
+        expect(typeof(hora)).toBe("object");
+    });
 });
 
 describe("Function darFecha()",  () => {
