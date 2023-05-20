@@ -1,5 +1,6 @@
 const {Fecha} = require("./fecha.js");
 const {Hora} = require("./hora.js");
+const {ErrorMsj} = require("./error.js")
 
 describe("Check if they exists", () => {
     it("Class Fecha Exists", () => {
