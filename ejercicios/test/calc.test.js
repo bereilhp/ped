@@ -48,4 +48,10 @@ describe("Test function sub", () => {
         let calc = new Calculator;
         expect(calc.sub(6,"a")).toBe("No es un número")
     });
+
+    it("Test sub function negativos", () =>{
+        let calc = new Calculator;
+        let sub = calc.sub;
+        expect(sub(1,-2)).toBe(3)
+    });
 });

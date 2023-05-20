@@ -20,11 +20,9 @@ class Calculator {
             if(typeof (a) == "number" && typeof (b) == "number"){
                 return a - b;
             } else throw "No es un número"
-            
         } catch (error) {
             return error;
         }
-
     }
 };
 
