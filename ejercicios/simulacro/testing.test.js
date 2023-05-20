@@ -1,4 +1,6 @@
-const {Fecha} = require("./fecha.js")
+const {Fecha} = require("./fecha.js");
+const {Hora} = require("./hora.js");
+
 describe("Check if they exists", () => {
     it("Class Fecha Exists", () => {
         expect(typeof(Fecha)).toBe("function");
