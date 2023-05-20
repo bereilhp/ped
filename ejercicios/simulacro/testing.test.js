@@ -8,6 +8,10 @@ describe("Check if they exists", () => {
         const fecha = new Fecha();
         expect(typeof(fecha)).toBe("object");
     });
+
+    it("Class Hora Exists", () => {
+        expect(typeof(Hora)).toBe("function");
+    });
 });
 
 describe("Function darFecha()",  () => {
