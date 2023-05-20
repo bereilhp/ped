@@ -16,7 +16,7 @@ describe("Class and object exists", () => {
     });
 });
 
-describe("Class and object exists", () => {
+describe("Test function add", () => {
     it("Test add function", () => {
         let calc = new Calculator();
         expect(calc.add(1,3)).toBe(4);
@@ -26,7 +26,4 @@ describe("Class and object exists", () => {
         let calc = new Calculator();
         expect(calc.add(1,"a")).toBe("No es un número");
     });
-
-
-
 });
