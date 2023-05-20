@@ -27,3 +27,10 @@ describe("Test function add", () => {
         expect(calc.add(1,"a")).toBe("No es un número");
     });
 });
+
+describe("Test function sub", () => {
+    it("Test sub function exists", () => {
+        let calc = new Calculator();
+        expect(typeof(calc.sub)).toBe("function");
+    });
+});
