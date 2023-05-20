@@ -26,6 +26,7 @@ describe("Check if they exists", () => {
     });
 
     it("Object errorMsj Exists", () => {
+        const errorMsj = new ErrorMsj();
         expect(typeof(errorMsj)).toBe("object");
     });
 });
