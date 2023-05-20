@@ -16,6 +16,7 @@ describe("Check if they exists", () => {
     });
 
     it("Object hora Exists", () => {
+        const hora = new Hora();
         expect(typeof(hora)).toBe("object");
     });
 });
