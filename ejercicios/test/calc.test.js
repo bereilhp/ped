@@ -43,4 +43,9 @@ describe("Test function sub", () => {
         let calc = new Calculator;
         expect(calc.sub(6,2)).toBe(4)
     });
+
+    it("Test sub function error", () =>{
+        let calc = new Calculator;
+        expect(calc.sub(6,"a")).toBe("No es un número")
+    });
 });

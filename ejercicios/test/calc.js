@@ -16,7 +16,15 @@ class Calculator {
     }
 
     sub(a,b){
-        return a-b;
+        try {
+            if(typeof (a) == "number" && typeof (b) == "number"){
+                return a - b;
+            } else throw "No es un número"
+            
+        } catch (error) {
+            return error;
+        }
+
     }
 };
 
