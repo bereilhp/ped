@@ -19,6 +19,10 @@ describe("Check if they exists", () => {
         const hora = new Hora();
         expect(typeof(hora)).toBe("object");
     });
+
+    it("Class ErrorMsj Exists", () => {
+        expect(typeof(ErrorMsj)).toBe("function");
+    });
 });
 
 describe("Function darFecha()",  () => {
