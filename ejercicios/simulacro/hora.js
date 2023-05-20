@@ -1,8 +1,9 @@
 class Hora {
     darHora(){
-        let hours = new Date().getHours();
-        let minutes = new Date().getMinutes();
-        let seconds = new Date().getSeconds();
+        const date = new Date()
+        let hours = date.getHours();
+        let minutes = date.getMinutes();
+        let seconds = date.getSeconds();
         return `${hours}:${minutes}:${seconds}`
     }
 };
