@@ -63,5 +63,11 @@ describe("Function darError()",  () => {
     it("darError() exists", () => {
         const errorMsj = new ErrorMsj();
         expect(typeof(errorMsj.darError)).toBe("function")
+    });
+
+    it("darError() simple test", () => {
+        const errorMsj = new ErrorMsj();
+        expect(errorMsj.darError()).toBe("ERROR")
     })
+
 });
