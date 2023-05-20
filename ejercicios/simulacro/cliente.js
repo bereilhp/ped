@@ -19,6 +19,12 @@ client.connect(3000, 'localhost', () => {
     console.log('Desconectado del servidor');
   });
 
+  process.on('SIGINT', function () {
+    console.error(' fue pulsado.');
+    console.log('Cerrando sesión Cliente');
+    process.exit();
+  });
+
   client.on('error', (err) => {
     console.error(err);
   });

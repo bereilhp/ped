@@ -28,12 +28,14 @@ Para ejecutar el servidor, utiliza el siguiente comando:
 ````
 make server
 ````
+Nota: <strong>Para detener el servidor utilizar el control c </strong>
 
 ## Ejecutar cliente
 Para ejecutar el cliente, utiliza el siguiente comando:
 `````
 make cliente
 `````
+Nota: <strong>Para detener el cliente utilizar el control c </strong>
 
 ## Ejecutar tests
 Para ejecutar los tests, sigue los siguientes pasos:
