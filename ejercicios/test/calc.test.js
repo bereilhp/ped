@@ -33,4 +33,9 @@ describe("Test function sub", () => {
         let calc = new Calculator();
         expect(typeof(calc.sub)).toBe("function");
     });
+
+    it("Test sub function simple test", () =>{
+        let calc = new Calculator;
+        expect(calc.sub(4,2)).toBe(2)
+    })
 });
