@@ -1,6 +1,7 @@
 class ErrorMsj {
     darError(){
-        return "ERROR"
+        const error = "ERROR"
+        return error
     }
 }
 
