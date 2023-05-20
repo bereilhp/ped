@@ -3,7 +3,6 @@ class Fecha {
         const fecha = new Date().toDateString();
         return fecha;
     }
-
 };
 
 module.exports = {
