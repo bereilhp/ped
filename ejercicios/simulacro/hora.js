@@ -1,4 +1,8 @@
 class Hora {
+    /**
+     * 
+     * @returns La hora actual en formato HH:MM:SS
+     */
     darHora(){
         const date = new Date()
         let hours = date.getHours();
