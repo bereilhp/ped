@@ -1,5 +1,8 @@
 class Fecha {
-    darFecha(){}
+    darFecha(){
+        const fecha = new Date().toDateString();
+        return fecha;
+    }
 
 };
 
