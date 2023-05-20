@@ -9,3 +9,10 @@ describe("Check if they exists", () => {
         expect(typeof(fecha)).toBe("object");
     });
 });
+
+describe("Function darFecha()",  () => {
+    it("darFecha() exists", () => {
+        const fecha = new Fecha();
+        expect(typeof(fecha.darFecha)).toBe("function")
+    })
+})
