@@ -33,3 +33,10 @@ describe("Function darFecha()",  () => {
         expect(fechaSimple.darFecha()).toBe(fecha)
     })
 })
+
+describe("Function darHora()",  () => {
+    it("darHora() exists", () => {
+        const hora = new Hora();
+        expect(typeof(hora.darHora)).toBe("function")
+    })
+})
