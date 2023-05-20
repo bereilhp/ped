@@ -28,9 +28,9 @@ describe("Function darFecha()",  () => {
     })
 
     it("darFecha() simple test", () => {
-        const fechaSimple = new Fecha();
-        let fecha = new Date().toDateString();
-        expect(fechaSimple.darFecha()).toBe(fecha)
+        const fecha = new Fecha();
+        let date = new Date().toDateString();
+        expect(fecha.darFecha()).toBe(date)
     })
 })
 
@@ -38,5 +38,13 @@ describe("Function darHora()",  () => {
     it("darHora() exists", () => {
         const hora = new Hora();
         expect(typeof(hora.darHora)).toBe("function")
+    })
+
+    it("darHora() simple test", () => {
+        const hora = new Hora();
+        let hours = new Date().getHours();
+        let minutes = new Date().getMinutes();
+        let seconds = new Date().getSeconds();
+        expect(hora.darHora()).toBe(`${hours}:${minutes}:${seconds}`)
     })
 })
