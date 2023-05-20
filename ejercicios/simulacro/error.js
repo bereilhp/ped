@@ -1,4 +1,7 @@
 class ErrorMsj {
+    darError(){
+        
+    }
 
 }
 
