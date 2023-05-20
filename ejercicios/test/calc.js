@@ -15,8 +15,8 @@ class Calculator {
         }
     }
 
-    sub(){
-        return 2;
+    sub(a,b){
+        return a-b;
     }
 };
 
