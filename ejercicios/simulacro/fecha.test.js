@@ -5,6 +5,7 @@ describe("Check if they exists", () => {
     });
 
     it("Object fecha Exists", () => {
+        const fecha = new Fecha();
         expect(typeof(fecha)).toBe("object");
     });
 });
