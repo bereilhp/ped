@@ -4,7 +4,7 @@ process.title = "cliente";
 const client = new net.Socket();
 client.setEncoding('utf8');
 
-client.connect(3000, 'localhost', () => {
+client.connect(16031, 'localhost', () => {
   console.log('Conectado al servidor');
 
   process.stdin.on('data', (data) => {

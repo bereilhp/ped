@@ -2,7 +2,7 @@ const net = require("net");
 const {Fecha} = require("./fecha.js");
 const {Hora} = require("./hora.js");
 const {ErrorMsj} = require("./error.js")
-const PORT = 3000;
+const PORT = 16000+10*3+1;
 
 const fecha = new Fecha();
 const hora = new Hora;
