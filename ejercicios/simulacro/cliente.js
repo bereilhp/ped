@@ -2,6 +2,7 @@ const net = require('net');
 process.title = "cliente";
 
 const client = new net.Socket();
+client.setEncoding('utf8');
 
 client.connect(3000, 'localhost', () => {
   console.log('Conectado al servidor');
@@ -11,7 +12,7 @@ client.connect(3000, 'localhost', () => {
   });
 
   client.on('data', (data) => {
-    console.log("DATOS RECIBIDOS DEL SERVIDOR: " + data.toString());
+    console.log(data);
   });
 
   client.on('end', () => {

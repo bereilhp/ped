@@ -11,9 +11,12 @@ const error = new ErrorMsj();
 process.title = "servidor";
 
 const server = net.createServer((socket) => {
+    socket.setEncoding('utf8');
     console.error("Nuevo cliente conectado");
+    socket.write("Escribe FECHA o HORA\nCualquier otro mensaje dara ERROR")
 
     socket.on("data", (data) => {
+        
         if(data.toString().trim() == "FECHA"){
             socket.write(fecha.darFecha())
         } else if (data.toString().trim() == "HORA"){
