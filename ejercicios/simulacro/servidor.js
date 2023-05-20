@@ -21,7 +21,10 @@ const server = net.createServer((socket) => {
             socket.write(fecha.darFecha())
         } else if (data.toString().trim() == "HORA"){
             socket.write(hora.darHora())
-        }else socket.write(error.darError())
+        }else {
+            socket.write(error.darError())
+            //socket.end()
+        }
         
     });
 
