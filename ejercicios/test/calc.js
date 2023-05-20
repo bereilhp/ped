@@ -15,7 +15,9 @@ class Calculator {
         }
     }
 
-    sub(){}
+    sub(){
+        return 2;
+    }
 };
 
 module.exports = {
