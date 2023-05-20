@@ -14,6 +14,8 @@ class Calculator {
             return error
         }
     }
+
+    sub(){}
 };
 
 module.exports = {
