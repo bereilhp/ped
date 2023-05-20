@@ -58,3 +58,10 @@ describe("Function darHora()",  () => {
         expect(hora.darHora()).toBe(`${hours}:${minutes}:${seconds}`)
     })
 })
+
+describe("Function darError()",  () => {
+    it("darError() exists", () => {
+        const errorMsj = new ErrorMsj();
+        expect(typeof(errorMsj.darError)).toBe("function")
+    })
+});
