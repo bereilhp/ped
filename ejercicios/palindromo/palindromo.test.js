@@ -8,4 +8,9 @@ describe("Class, Object and Function Exists", () => {
         const palindromo = new Palindromo();
         expect(typeof(palindromo)).toBe("object");
     });
+
+    it("Function Exists", () => {
+        const palindromo = new Palindromo();
+        expect(typeof(palindromo.esPalindromo)).toBe("function");
+    });
 });
