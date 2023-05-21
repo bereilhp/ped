@@ -16,12 +16,12 @@ describe("Class, Object and Function Exists", () => {
 });
 
 describe("Function esPalindromo() tests", () => {
-    it("Simple test", () => {
+    it("Simple test ana", () => {
         const palindromo = new Palindromo();
         expect(palindromo.esPalindromo("ana")).toBe(true);
     })
 
-    it("Simple test", () => {
+    it("Simple test Juan", () => {
         const palindromo = new Palindromo();
         expect(palindromo.esPalindromo("Juan")).toBe(false);
     })
