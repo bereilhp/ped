@@ -30,4 +30,9 @@ describe("Function esPalindromo() tests", () => {
         const palindromo = new Palindromo();
         expect(palindromo.esPalindromo("121")).toBe(true);
     })
+
+    it("Hard test Ana", () => {
+        const palindromo = new Palindromo();
+        expect(palindromo.esPalindromo("Ana")).toBe(true);
+    })
 });
