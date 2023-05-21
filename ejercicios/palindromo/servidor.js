@@ -27,11 +27,9 @@ const server = net.createServer((socket) => {
                 splitContenido.forEach(element => {
                     if(element.includes("\n")){
                         let split = element.split("\n");
-                        console.log(split)
                         trimContenido = trimContenido.concat(split);
                     } else trimContenido.push(element); 
                 });
-                console.log(trimContenido);
                 let ans = []
                 for (const element of splitContenido){
                     if(palindromo.esPalindromo(element) === true){
