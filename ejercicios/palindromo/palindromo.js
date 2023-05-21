@@ -1,6 +1,6 @@
 class Palindromo {
     esPalindromo(){
-        
+        return true
     }
 }
 
