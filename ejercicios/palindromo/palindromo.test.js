@@ -14,3 +14,10 @@ describe("Class, Object and Function Exists", () => {
         expect(typeof(palindromo.esPalindromo)).toBe("function");
     });
 });
+
+describe("Function esPalindromo() tests", () => {
+    it("Simple test", () => {
+        const palindromo = new Palindromo();
+        expect(palindromo.esPalindromo("ana")).toBe(true);
+    })
+});
