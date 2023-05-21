@@ -4,7 +4,7 @@ class Palindromo {
         for (let i = palabra.length-1; i >= 0; i--){
             palabraDadaVuelta = palabraDadaVuelta + palabra[i];
         }
-        return palabra === palabraDadaVuelta;
+        return palabra.toLowerCase() === palabraDadaVuelta.toLowerCase();
     }
 }
 
