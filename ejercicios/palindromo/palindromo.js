@@ -1,5 +1,5 @@
 class Palindromo {
-
+    
 }
 
 module.exports = {

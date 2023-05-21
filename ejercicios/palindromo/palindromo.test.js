@@ -5,6 +5,7 @@ describe("Class, Object and Function Exists", () => {
     });
 
     it("Object Exists", () => {
+        const palindromo = new Palindromo();
         expect(typeof(palindromo)).toBe("object");
     });
 });
