@@ -1,5 +1,7 @@
 class Palindromo {
-    
+    esPalindromo(){
+        
+    }
 }
 
 module.exports = {
